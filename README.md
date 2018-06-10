@@ -45,5 +45,6 @@ diff[] = {20, 22, 23, 24, 24} <br />
 3. Sort the array diff <br />
  <br /> <br />
 4. Loop through the diff array and keep subtracting diff array value from T. <br />
+ <br />
 
 The time complexity of this solution is O (n Log n)
