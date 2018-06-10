@@ -38,7 +38,7 @@ we sorted it: <br />
 then we store difference between two tasks + value of prev task <br />
 10  20  22  23  24 <br />
 |___|___|___|___| <br />
- 10 &nbsp;   2 &nbsp;  1 &nbsp;&nbsp;  1 <br />
+ &nbsp;10 &nbsp;   2 &nbsp;  1 &nbsp;&nbsp;  1 <br />
  <br /> <br />
 diff[] = {20, 22, 23, 24, 24} <br />
  <br />
