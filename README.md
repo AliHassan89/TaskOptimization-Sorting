@@ -28,20 +28,20 @@ All five tasks cannot be completed within the allowed 65 minutes, but it is poss
 three tasks, for example tasks 4, 5, 3 if completed in this order.
 
 # Solution
-1. Array list which is recevied as function parameter is sorted.
+1. Array list which is recevied as function parameter is sorted. <br />
 
-2. A new array is created of the same length in which the difference between two tasks + the value of prev task is stored.
-e.g we recevied following a list as argument
-24, 23, 22, 10, 20
-we sorted it:
-10, 20, 22, 23, 24
-then we store difference between two tasks + value of prev task
-10  20  22  23  24
-|___|___|___|___|
- 10   2   1   1
-
-diff[] = {20, 22, 23, 24, 24}
-
-3. Sort the array diff
-
-4. Loop through the diff array and keep subtracting diff array value from T.
+2. A new array is created of the same length in which the difference between two tasks + the value of prev task is stored. <br />
+e.g we recevied following a list as argument <br />
+24, 23, 22, 10, 20 <br />
+we sorted it: <br />
+10, 20, 22, 23, 24 <br />
+then we store difference between two tasks + value of prev task <br />
+10  20  22  23  24 <br />
+|___|___|___|___| <br />
+ 10   2   1   1 <br />
+ <br /> <br />
+diff[] = {20, 22, 23, 24, 24} <br />
+ <br />
+3. Sort the array diff <br />
+ <br /> <br />
+4. Loop through the diff array and keep subtracting diff array value from T. <br />
